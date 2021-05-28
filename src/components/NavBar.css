@@ -1,0 +1,40 @@
+.nav-bar-wrapper {
+  width: fit-content;
+  position: sticky;
+  top: 0;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--firstcolor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar h3 {
+  color: var(--thirdcolor);
+  margin: 0 2em;
+}
+
+.nav-bar button {
+  margin: 0 2em;
+  background-color: var(--thirdcolor);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--fifthcolor);
+}
+
+@media screen and (max-width: 360px) {
+  .nav-bar button {
+    margin: 0 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .nav-bar h3 {
+    margin: 0 1em;
+  }
+}

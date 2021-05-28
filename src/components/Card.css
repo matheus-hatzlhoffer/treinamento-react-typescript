@@ -1,0 +1,58 @@
+.card-wrapper {
+  width: 100%;
+}
+
+.outer-card {
+  min-width: 250px;
+  min-height: 300px;
+  max-width: 300px;
+  max-height: 400px;
+  width: 70vw;
+  height: 80vh;
+  background-color: var(--fourthcolor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.inner-card {
+  width: 90%;
+  height: 90%;
+  background-color: var(--thirdcolor);
+}
+
+.inner-card h1 {
+  text-align: center;
+  margin: 10px;
+  font-size: 72px;
+}
+
+.inner-card p {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 16px;
+}
+
+.actions {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 20% 0;
+}
+
+.buttons button {
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button div {
+  width: 36px;
+  height: 36px;
+  background-color: var(--secondcolor);
+}
